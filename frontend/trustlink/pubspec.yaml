@@ -1,0 +1,49 @@
+name: trustlink_app
+description: TrustLink - Connect customers with trusted artisans
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # HTTP Client
+  dio: ^5.4.0
+
+  # Secure Storage (JWT token)
+  flutter_secure_storage: ^9.0.0
+
+  # Google Maps & GPS
+  google_maps_flutter: ^2.6.0
+  geolocator: ^11.0.0
+
+  # Image Picker
+  image_picker: ^1.0.7
+
+  # WebSocket (Chat)
+  socket_io_client: ^2.0.3+1
+
+  # UI Extras
+  cached_network_image: ^3.3.1
+  flutter_rating_bar: ^4.0.1
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  riverpod_generator: ^2.3.9
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
